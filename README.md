@@ -1,114 +1,147 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# The Bark Academy
 
-Welcome Chelsie Howkins,
+[Link to a live site]
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![Responsive view of The Bark Academy website]
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 28, 2024**
+## Introduction
 
-## Gitpod Reminders
+Welcome to my first project, part of the Code Institute Level 5 Diploma in Web Development Course. The purpose of this project is to build a responsive website using HTML, CSS, and Bootstrap only.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+The Bark Academy is a project for a fictional dog training company specialising in socialisation and behavioural issues.
 
-`python3 -m http.server`
+Users will be able to navigate through the website using a navigation bar. 
+Users will be able to easily identify the purpose of the business on the home page.
+Users are able to see a range of services offered, a gallery containing previous customers experiences and will be able to send enquiries to the business via a contact form on a dedicated page.
 
-A blue button should appear to click: _Make Public_,
+#### Thank you for visiting The Bark Academy
 
-Another blue button should appear to click: _Open Browser_.
+## UX - User Experience Design
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
+A user experience designer, Jesse James Garrett, introduced five UX design elements in his book The Elements of User Experience.
+In the book, he explains the steps of user experience projects and what UX designers should consider at each stage.
+This is where most of my planning process steps came from.
 
-A blue button should appear to click: _Make Public_,
+The 5 planes of UX are as below:
 
-Another blue button should appear to click: _Open Browser_.
+- The Strategy Plane
+- The Scope Plane
+- The Structure Plane
+- The Skeleton Plane
+- The Surface Plane
 
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## The Strategy Plane
 
-To log into the Heroku toolbelt CLI:
+### Creator Goals
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### User Stories
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
+**User stories are based on ....**
 
-------
+## The Scope Plane
 
-## Release History
+**Features implemented upon webpage release**
+  
+**Features planned to add later**
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### Colors
 
-**May 28 2024:** Fix Mongo and Links installs
+### Fonts
 
-**April 26 2024:** Update node version to 16
+### Images
 
-**September 20 2023:** Update Python version to 3.9.17.
+## The Skeleton Plane
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+[Home page wireframes]
+  
+[Menu page wireframes]
+  
+[Contact page wireframes]
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+## The Surface Plane
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+### Features present across the project 
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+### Navigation bar :
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+**Desktop** : 
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+![Desktop navbar]
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+**Mobile** :
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+![Mobile navbar]
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### Footer :
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+![Footer]
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Hero images :
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+**Desktop** :
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+**Mobile** :
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### Introduction section :
 
-------
+### Activities section :
 
-## FAQ about the uptime script
+### Menu section :
 
-**Why have you added this script?**
+### Contact form :
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+## Technologies Used
 
-**How will this affect me?**
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [Github](https://github.com/)
+- [Git](https://git-scm.com/)
+- [Bootstrap 4.6](https://getbootstrap.com/docs/4.6/getting-started/introduction/)
+- [jQuery](https://jquery.com/) - Used with Bootstrap.
+- [JavaScript](https://www.javascript.com/) - Used with Bootstrap.
+- [Hover.css](https://ianlunn.github.io/Hover/)
+- [FontAwsome](https://fontawesome.com/)
+- [Balsamiq](https://balsamiq.com/wireframes/?gad_source=1&gclid=Cj0KCQiAy9msBhD0ARIsANbk0A_UrgDIhg_KSUHNCOUn-D9DiHl_9Z1dwScGRuI4JET1bnKbQkqwSb8aArFqEALw_wcB)
+- [Code Anywhere](https://app.codeanywhere.com/)
+- [Google Fonts](https://fonts.google.com/)
+- [QuillBot](https://quillbot.com/)
+- [Google Developer Tools](https://developer.chrome.com/docs/devtools/)
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+## Testing
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+### User stories :
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+### Manual testing
 
-**So….?**
+#### Devices used during testing:
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+### Chrome Dev Tools
 
-**Can I opt out?**
+### Browser Testing
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+### Validation
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+### Bugs and Fixes
 
-**Anything more?**
+### Un-resolved Bugs
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+## Deployment 
 
----
+The master branch of this repository is the most current version and has been used for the deployed version of the site.
+The Code Institiue student template was used to create this project.
 
-Happy coding!
+[Code Institute Template for CodeAnywhere](https://github.com/Code-Institute-Org/ci-full-template)
+
+### Creating a clone
+
+### Forking
+
+## Credits
+
+### Images :
+
+### Videos :
+
+### Code :
+
+## Thank you to everyone who read this documentation! 
