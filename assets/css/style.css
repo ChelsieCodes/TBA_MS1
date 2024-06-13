@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: BebasNeue, sans-serif;
+    font-family: "Bebas Neue", sans-serif;
     font-weight: 300;
     color: #3a3a3a;
 }
@@ -15,12 +15,52 @@ body {
 /* headings and logo */
 
 h1, h2 {
-    font-family: DancingScript, sans-serif;
-    letter-spacing: 4px;
+    font-family: "Dancing Script", sans-serif;
+    letter-spacing: 2px;
     color: #252525;
 }
 
 #logo {
-    float: left;
+    padding-right: 20px;
+    padding-left: 20px;
+    float: right;
     font-size: 280%;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu li {
+    list-style-type: none;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
 }
