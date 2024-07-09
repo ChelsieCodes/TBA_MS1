@@ -155,3 +155,38 @@ hr {
     height: 100%;
     border-radius: 50%;
 }
+/*---Schedule---*/
+
+#schedule {
+    background-image: url("../images/dog-stick.jpg") no repeat center center;
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+    display: block;
+    display: inline-block;
+}
+
+#schedule h2 {
+    color: #fafafa;
+}
+
+/*--- Footer ---*/
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
