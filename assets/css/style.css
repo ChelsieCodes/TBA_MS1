@@ -100,10 +100,10 @@ menu {
     font-size: 200%;
  }
 
- #about-content {
-    padding-left: 70px 0;
-    padding-right: 70px 0;
+ .about-content {
+    width: 33%;
     text-align: center;
+    float: center;
     font-size: 100;
  }
 
@@ -246,12 +246,11 @@ footer {
 
 /*--- Classes ---*/
 
-.menu {
+.sessions {
     font-family: "Exo", sans-serif;
-    background: url("../images/menu-background.jpg") center center no-repeat;
 }
 
-.menu h2 {
+.sessions h2 {
     text-align: center;
     margin-top: 60px;
     margin-bottom: 0;
@@ -259,15 +258,15 @@ footer {
     padding-bottom: 10px;
 }
 
-.menu h4 {
+.sessions h4 {
     text-decoration: underline;
 }
 
-.menu h5 {
+.sessions h5 {
     text-transform: uppercase;
 }
 
-.cocktail {
+.sessions {
     padding: 10px;
     text-align: center;
     text-transform: capitalize;
