@@ -97,13 +97,14 @@ menu {
     margin: auto;
     padding: 70px 0;
     text-align: center;
-    font-size: 200;
+    font-size: 200%;
  }
 
- .about-content {
-    height: 600px;
+ #about-content {
+    padding-left: 70px 0;
+    padding-right: 70px 0;
     text-align: center;
-    font-size: 100%;
+    font-size: 100;
  }
 
 /*---Key Focuses---*/
@@ -198,6 +199,8 @@ footer {
     padding: 5%;
     color: #3a3a3a;
 }
+
+/*--- Contact Form ---*/
 .form-section {
     background: url("assets/css/images/contact-background.jpg") center center no-repeat;
     height: 800px;
@@ -240,6 +243,8 @@ footer {
     padding: 10px 20px;
     font-weight: 800;
 }
+
+/*--- Classes ---*/
 
 .menu {
     font-family: "Exo", sans-serif;
